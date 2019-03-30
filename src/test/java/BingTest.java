@@ -32,7 +32,7 @@ public class BingTest {
         WebElement link = driver.findElement(By.xpath("/html/body/div[2]/main/ol/li[2]/div[1]/h2/a"));
 
         String textLinku = link.getText();
-        String oczekiwanyTekst = "Mistrzostwa świata w piłce nożnej 2018 - Wikipedia,...";
+        String oczekiwanyTekst = "Mistrzostwa Świata w Piłce Nożnej 2018 – Wikipedia, …";
 
         assertTrue(textLinku.equals(oczekiwanyTekst));
 
